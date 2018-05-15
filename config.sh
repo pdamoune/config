@@ -46,7 +46,7 @@ mkdir -p $HOME/Documents/dev
 mkdir -p $HOME/Documents/dev/projects
 
 # Clone config files or pull if it exist
-if [ ! -d $CONFIG_REPO ]; then git clone $REPO_SRC $CONFIG_REPO
+if [ ! -d $CONFIG_REPO ]; then git clone $CONFIG_SRC $CONFIG_REPO
 else git -C $CONFIG_REPO pull; fi
 
 ###############################################################################
