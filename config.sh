@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/zsh
 
 # sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 # sh -c "$(curl -fsSL https://raw.githubusercontent.com/pdamoune/config/master/config.sh)"
