@@ -83,4 +83,4 @@ apm -v foo >/dev/null 2>&1 || { echo >&2 "Atom shell commands required\n\
 Check /dotfiles/atom/package.list to install Atom packages \
 manually"; exit 1; }
 # apm install --packages-file $HOME/.atom/package.list
-zsh
+chsh -s $(which zsh)
